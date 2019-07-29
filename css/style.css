@@ -1,4 +1,4 @@
-    .footer{
+    .header{
         width: 1900px;
         height: 53px;
         background-color: #2d2827;
@@ -7,7 +7,7 @@
       
       div.grid      { width: 1900px; }
       div.grid div  { float: left; height: 53px; }
-      div.col100    { 
+      .div1   { 
           width: 775px;
           /* width: 13px; */
           height: 9px;
@@ -25,7 +25,7 @@
 
   
          }
-      div.col200    { 
+       .div2   { 
         width: 349px; 
         margin: 0 auto;
         /* height: 9px; */
@@ -41,9 +41,54 @@
         padding-top: 15px;
     }
 
-      div.col300    { 
-          width: 776px; 
-          /* width: 111px; */
+      .div3{
+        width: 300px; 
+        height: 15px;
+        font-family: FontAwesome;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #999999;
+        padding-top: 15px;
+      }
+      .div4{
+        width: 111px;
+        font-family: FontAwesome;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #999999;
+        padding-top: 15px;
+        display:inline-block; 
+        vertical-align:top;
+  
+      }
+      .div5{
+        width: 365px; 
+        height: 15px;
+        font-family: FontAwesome;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #999999;
+        padding-top: 15px;
+      }
+    
+    
+        .icons{
+          width: 111px;
           height: 15px;
           font-family: FontAwesome;
           font-size: 15px;
@@ -54,11 +99,17 @@
           letter-spacing: normal;
           text-align: center;
           color: #999999;
-          padding-top: 15px;
-          
         }
+      
+        
     
       div.clear     { clear: both; }
+
+      #showcase{
+        width: 1900px;
+        height: 4500px;
+      }
+
     
       
      
