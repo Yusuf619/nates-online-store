@@ -175,6 +175,62 @@
   color: #ffffff;
 }
 
+.topnav a.active3{
+  width: 117px;
+  height: 21px;
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe
+}
+
+.topnav a.active4{
+  width: 32px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.topnav a.active5{
+  width: 66px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color:#ffffff;
+}
+.topnav a.active6{
+  width: 77px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
 .topnav .icon {
   display: none;
 }
