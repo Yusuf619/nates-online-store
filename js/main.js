@@ -8,7 +8,7 @@ function Function2() {
   }
 
   function Function1() {
-    var x = document.getElementById("header");
+    var x = document.getElementById("grid");
     if (x.className === "grid") {
       x.className += " responsive";
     } else {
