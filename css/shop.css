@@ -1,7 +1,7 @@
 body{
-    background-color: white;
+    background-color: black;
     margin: 0;
-    height: 4500px;
+    height:  2769px;
     padding: 0;
   }
  
@@ -13,6 +13,8 @@ body{
     overflow: hidden;
     margin-top: 0;
     margin-bottom: 58px;
+    margin:0 auto;
+
   }
   
   div.grid      { width: 100%;  }
@@ -30,8 +32,6 @@ body{
       text-align: center;
       color: #999999;
       padding-top: 23px;
-      /* padding-bottom: 21px;
-      padding-right: 4px; */
 
       }
       .div1 i{
@@ -66,11 +66,362 @@ body{
     padding-top: 18px;
     
 }
+     
+  div.clear     { clear: both; }
 
+  /* NAVBAR */
+  .header1{
+      background-color: #ffffff;
+      height: 93px;
+      width: 100%;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-attachment: fixed;
+    margin:0 auto;
+    /* height: 93px;
+    width: 100%; */
+   
+  }
+  
+  .topnav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 2.10%;
+    
+  }
+  /* 
+  .topnav a:hover {
+  
+  } */
+  
+  .topnav a.active {
+    width: 40px;
+  height: 12px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
+  margin-left: 15%;
+  margin-top: 35px;
+  }
+  
+  .topnav a.active1{
+    width: 2.10%;
+    height: 12px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+  } 
+  
+  .topnav a.active2{
+    width: 2.10%;
+    height: 12px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+  
+  }
+  
+  .topnav a.active3{
+    width: 6.10%;
+    height: 22px;
+    font-family: Dosis;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #000000;
+    margin-left: 11%;
+    margin-top: 36px;
+  }
+  
+  .topnav a.active4{
+    width: 2.10%;
+    height: 12px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+  }
+  
+  .topnav a.active5{
+    width: 2.10%;
+    height: 12px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+  }
+  .topnav a.active6{
+    width: 3.94%;
+    height: 12px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+    margin-right: 8%;
+  }
+  
   
   .topnav .icon {
     display: none;
     padding-right: 35px;
   }
+
+  .fa-shopping-cart{
+    width: 1.10%;
+    height: 18px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #666666;
+    padding-right: 1.42%;
+  }
+  .fa-search{
+    width: 1.10%;
+    height: 18px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #666666;
+  }
+
+  #shop{
+      background-color: #666666;
+      height: 445px;
+      width: 100%;
+      margin:0 auto;
+  }
+
+  .shop1{
+    width: 132px;
+    height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 46.52%;
+    padding-right: 46.52%;
+    padding-top: 180px;
+
+  }
+   
+  #img1{
+    height:500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#img2{
+     height:562px;
+     padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
      
-  div.clear     { clear: both; }
+}
+#img3{
+     height: 650px;
+     padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#img4{
+height: 562px;
+padding-top:20px;
+padding-bottom: 20px;
+margin-left: 20px;
+
+}
+.row1{
+    background-color: #999999;
+}
+#shopbook ul{
+    padding-top: 150px;
+}
+#shopbook{
+    margin-top: 40px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    background-color: #3333;
+}
+#shopbook3{
+    margin-top: 40px;
+    /* padding-left: 200px; */
+    padding-right: 200px;
+    background-color: #3333;
+}
+.line{
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* styling of the shoes in the shop page */
+#shoe1{
+    height:500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe2{
+    height:308px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe3{
+    height:410px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe4{
+    height:310px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+/* Shop Content*/
+#jean1{
+    height:580px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean2{
+    height:398px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean3{
+    height:380px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean4{
+    height:370px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cart{
+	padding-left: 60px;
+
+}
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+        
+  /* NAVBAR MEDIA Queries */
+  @media screen and (max-width: 800px) {
+    .topnav a:not(.active3) {display: none;}
+    .topnav a.icon {
+      float: right;
+      position: relative;
+      margin: auto;
+      display: block;
+      transition: 0.8s;
+      padding-top: -15px;
+    }
+  .topnav .active3{
+    float: left;
+    padding-bottom:15px;
+    display: inline-flex;
+    padding-left: 10px;
+  }
+  
+      
+  
+    }
+  
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a{
+      float: none;
+      display: block;
+      text-align: left;
+      padding-top: 15px;
+      padding-bottom: 5px;
+    }
+    .topnav.responsive .active3{
+      display: none;
+    }
+  }
