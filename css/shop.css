@@ -1,108 +1,124 @@
 body{
-    background-color: black;
-    margin: 0;
-    height:  2769px;
-    padding: 0;
-  }
- 
-  .header{
-    width: 100%;
-    height: 53px;
-    background-color: #eeeeee;
-    color: white;
-    overflow: hidden;
-    margin-top: 0;
-    margin-bottom: 58px;
-    margin:0 auto;
+  background-color: white;
+  margin: 0;
+  height:  2769px;
+  padding: 0;
+}
 
-  }
-  
-  div.grid      { width: 100%;  }
-  div.grid div  { float: left; height: 53px; }
-  .div1   { 
-      width: 36.31%; 
-      height: 9px;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1vw;
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: 1px;
-      text-align: center;
-      color: #999999;
-      padding-top: 23px;
+.header{
+  width: 100%;
+  height: 53px;
+  background-color: #eeeeee;
+  color: white;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 58px;
+  margin:0 auto;
 
-      }
-      .div1 i{
-        padding-left: 10px;
-     
-  
-    }
+}
 
-     
-
-     .lnr {
-       color: #999999;
-       font-size: 6px;
-       width: 7px;
-       height: 5px;
-       text-align: center;
-     }
-
-
-   .div2   { 
-    width: 27.31%;
+div.grid      { width: 100%;  }
+div.grid div  { float: left; height: 53px; }
+.div1   { 
+    width: 36.31%; 
     height: 9px;
-    font-size: 0.4vw;  
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: normal;
+    font-size: 1vw;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.83;
-    letter-spacing: 2.4px;
+    line-height: normal;
+    letter-spacing: 1px;
     text-align: center;
     color: #999999;
-    padding-top: 18px;
-    
-}
-     
-  div.clear     { clear: both; }
+    padding-top: 23px;
 
-  /* NAVBAR */
-  .header1{
-      background-color: #ffffff;
-      height: 93px;
-      width: 100%;
+    }
+    .div1 i{
+      padding-left: 10px;
+   
+
   }
+
+   
+
+   .lnr {
+     color: #999999;
+     font-size: 6px;
+     width: 7px;
+     height: 5px;
+     text-align: center;
+   }
+
+
+ .div2   { 
+  width: 27.31%;
+  height: 9px;
+  font-size: 0.4vw;  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #999999;
+  padding-top: 18px;
+  
+}
+   
+div.clear     { clear: both; }
+
+/* NAVBAR */
+.header1{
+    background-color: #ffffff;
+    height: 93px;
+    width: 100%;
+}
 
 .topnav {
-    overflow: hidden;
-    background-attachment: fixed;
-    margin:0 auto;
-    /* height: 93px;
-    width: 100%; */
-   
-  }
-  
-  .topnav a {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-family: 'Dosis', sans-serif;
-    padding-left: 2.10%;
-    
-  }
-  /* 
-  .topnav a:hover {
-  
-  } */
-  
-  .topnav a.active {
-    width: 40px;
-  height: 12px;
+  overflow: hidden;
+  background-attachment: fixed;
+  margin:0 auto;
+  padding-top: 36px;
+ 
+}
+
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+  display: inline;
   font-family: 'Dosis', sans-serif;
+  padding-left: 2.10%;
+  
+}
+
+.topnav a:hover {
+    color: blue;
+    transition-delay: 0.5s;
+
+}
+
+.topnav a.active {
+  width: 40px;
+height: 12px;
+font-family: 'Dosis', sans-serif;
+font-size: 16px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: 0.8px;
+text-align: left;
+color: #666666;
+margin-left: 15%;
+margin-top: 35px;
+}
+
+.topnav a.active1{
+  width: 2.10%;
+  height: 12px;
+  font-family: Dosis;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -111,300 +127,137 @@ body{
   letter-spacing: 0.8px;
   text-align: left;
   color: #666666;
-  margin-left: 15%;
-  margin-top: 35px;
-  }
-  
-  .topnav a.active1{
-    width: 2.10%;
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666;
-  } 
-  
-  .topnav a.active2{
-    width: 2.10%;
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666;
-  
-  }
-  
-  .topnav a.active3{
-    width: 6.10%;
-    height: 22px;
-    font-family: Dosis;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    text-align: left;
-    color: #000000;
-    margin-left: 11%;
-    margin-top: 36px;
-  }
-  
-  .topnav a.active4{
-    width: 2.10%;
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666;
-  }
-  
-  .topnav a.active5{
-    width: 2.10%;
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666;
-  }
-  .topnav a.active6{
-    width: 3.94%;
-    height: 12px;
-    font-family: Dosis;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666;
-    margin-right: 8%;
-  }
-  
-  
-  .topnav .icon {
-    display: none;
-    padding-right: 35px;
-  }
+} 
 
-  .fa-shopping-cart{
-    width: 1.10%;
-    height: 18px;
-    font-size: 22px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.1px;
-    text-align: left;
-    color: #666666;
-    padding-right: 1.42%;
-  }
-  .fa-search{
-    width: 1.10%;
-    height: 18px;
-    font-size: 22px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.1px;
-    text-align: left;
-    color: #666666;
-  }
-
-  #shop{
-      background-color: #666666;
-      height: 445px;
-      width: 100%;
-      margin:0 auto;
-  }
-
-  .shop1{
-    width: 132px;
-    height: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 50px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    text-align: center;
-    color: #ffffff;
-    padding-left: 46.52%;
-    padding-right: 46.52%;
-    padding-top: 180px;
-
-  }
-   
-  #img1{
-    height:500px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#img2{
-     height:562px;
-     padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-     
-}
-#img3{
-     height: 650px;
-     padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#img4{
-height: 562px;
-padding-top:20px;
-padding-bottom: 20px;
-margin-left: 20px;
+.topnav a.active2{
+  width: 2.10%;
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
 
 }
-.row1{
-    background-color: #999999;
+
+.topnav a.active3{
+  width: 6.10%;
+  height: 22px;
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000;
+  margin-left: 11%;
+  margin-top: 36px;
 }
-#shopbook ul{
-    padding-top: 150px;
+
+.topnav a.active4{
+  width: 2.10%;
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
 }
-#shopbook{
-    margin-top: 40px;
-    /* margin-left: 200px;
-    margin-right: 200px; */
-    background-color: #3333;
+
+.topnav a.active5{
+  width: 2.10%;
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
 }
-#shopbook3{
-    margin-top: 40px;
-    /* padding-left: 200px; */
-    padding-right: 200px;
-    background-color: #3333;
+.topnav a.active6{
+  width: 3.94%;
+  height: 12px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
+  margin-right: 8%;
 }
-.line{
-    padding-bottom: 20px;
-    text-align: center;
+
+
+.topnav .icon {
+  display: none;
+  padding-right: 35px;
 }
-/* styling of the shoes in the shop page */
-#shoe1{
-    height:500px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#shoe2{
-    height:308px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#shoe3{
-    height:410px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#shoe4{
-    height:310px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-/* Shop Content*/
-#jean1{
-    height:580px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#jean2{
-    height:398px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#jean3{
-    height:380px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#jean4{
-    height:370px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-.cart{
-	padding-left: 60px;
+
+.header2{
+    width: 100%;
+    height: 93px;
+    background-color: #ffffff;
+
 
 }
-  
+
+.fas{
+ color: #666666;
+ padding-left: 1.42%;
+}
+
+.intro{
+    width: 100%;
+    height: 445px;
+    background-color: #666666;
+}
+
+.dsc{
+    width: 100%;
+    height: 548px;
+    background-color: #ffffff;
+}
+
+.dsc2{
+    width: 100%;
+    height: 721px;
+    background-color: #ffffff;
     
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dsc3{
+  width: 100%;
+  height: 721px;
+  background-color: #ffffff;
   
-        
-  /* NAVBAR MEDIA Queries */
-  @media screen and (max-width: 800px) {
-    .topnav a:not(.active3) {display: none;}
-    .topnav a.icon {
-      float: right;
-      position: relative;
-      margin: auto;
-      display: block;
-      transition: 0.8s;
-      padding-top: -15px;
-    }
-  .topnav .active3{
-    float: left;
-    padding-bottom:15px;
-    display: inline-flex;
-    padding-left: 10px;
-  }
-  
-      
-  
-    }
+}
+
+.footer{
+  height: 425px;
+  width: 100%;
+  background-color: black;
+}
+
+.footer2{
+  height: 85px;
+  width: 100%;
+  background-color: #d7d7d7;
+}
   
   
   @media screen and (max-width: 800px) {
@@ -425,3 +278,475 @@ margin-left: 20px;
       display: none;
     }
   }
+
+  .shop{
+      width: 100%;
+      height: 445px;
+      background-color: #666666;
+  
+  }
+
+  .shop h1{
+    width: 132px;
+    height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 46.52%;
+    padding-top: 180px;
+  }
+  
+  .products{
+    width: 100%;
+    height: 1610px;
+    background-color: #f5f5f5;
+  }
+
+
+
+
+
+
+
+  #top-footer{
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: center;
+    border-color: transparent;
+    width: 100%;
+    background-color:rgb(238, 238, 238);
+}
+.footer{
+    background-color: black;
+}
+.table{
+  background-color: #333333;
+  color: white;
+}
+#firstone{
+  width: 30%;
+  word-spacing: 40px;
+}
+#secondone{
+  width: 99%;
+}
+/* nav bar style */
+.topnav {
+    overflow: hidden;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: black;
+   }
+   .topnav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+   }
+   /*
+   .topnav a:hover {
+   } */
+   .topnav a.active {
+    width: 36px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color:white;
+    padding-right:54px;
+   }
+   .topnav a.active1{
+    width: 34px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: white;
+    padding-right:55px;
+   }
+   .topnav a.active2{
+    width: 44px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: white;
+    padding-right:50px;
+   }
+   .topnav a.active3{
+    width: 117px;
+    height: 21px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: white;
+    padding-right:48px;
+   }
+   .topnav a.active4{
+    width: 32px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: white;
+    padding-right:53px;
+   }
+   .topnav a.active5{
+    width: 66px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color:white;
+    padding-right:49px;
+   }
+   .topnav a.active6{
+    width: 77px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: white;
+   }
+   .topnav .icon {
+    display: none;
+    padding-right: 35px;
+   }
+   /* NAVBAR MEDIA Queries */
+   @media screen and (max-width: 800px) {
+    .topnav a:not(.active3) {display: none;}
+    .topnav a.icon {
+      float: right;
+      position: relative;
+      margin: auto;
+      display: block;
+      transition: 0.8s;
+      padding-top: -15px;
+    }
+   .topnav .active3{
+    float: left;
+    padding-bottom:15px;
+    display: inline-flex;
+    padding-left: 10px;
+   }
+    }
+   @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a{
+      float: none;
+      display: block;
+      text-align: left;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+    }
+    .topnav.responsive .active3{
+      display: none;
+    }
+}
+
+
+
+
+
+  .lookbook{
+	width: 77px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+
+  }
+/* styling my image of my shop pages */
+#img1{
+    height:500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 14px;
+}
+#img2{
+     height:562px;
+     padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 14px;
+     
+}
+#img3{
+     height: 650px;
+     padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 14px;
+}
+#img4{
+height: 562px;
+padding-top:20px;
+padding-bottom: 20px;
+margin-left: 14px;
+
+}
+.row1{
+    background-color: white;
+}
+#shopbook ul{
+    padding-top: 50px;
+}
+#shopbook{
+    /* margin-top: 1em; */
+    background-color: #333333;
+    color: white;
+}
+#shopbook3{
+    margin-top: 40px;
+    background-color: #333333;
+    color: white;
+}
+.line{
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* styling of the shoes in the shop page */
+#shoe1{
+    height:500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 3px;
+}
+#shoe2{
+    height:300px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+#shoe3{
+    height:410px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 2px;
+}
+#shoe4{
+    height:300px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 2px;
+}
+/* styling of the jeans in the shop page */
+#jean1{
+    height:480px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 7px;
+}
+#jean2{
+    height:398px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 8px;
+}
+#jean3{
+    height:380px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean4{
+    height:370px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cart{
+	padding-left: 60px;
+
+}
+/* styling of lookbook */
+#lookbook1{
+   background-color: white;
+   color: white;
+   text-align: center;
+}
+.containerlook{
+    display: inherit;
+}
+/* google font styling */
+h1,h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+}
+/* styling of my pagination */
+.pagination {
+    display: inline-block;
+    padding-left: 70%;
+  }
+  .pagination1 {
+    display: inline-block;
+    /* padding-left: 70%; */
+  }
+  .pagination1 a {
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination1 a.active {
+    font-weight: bold;
+    color: white;
+  }
+  .pagination a.active {
+    font-weight: bold;
+    color: white;
+  }
+  .pagination1 a:hover:not(.active) {background-color: #ddd;}
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  #one {
+    width: 6px;
+    height: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-three);
+  }
+  #two{
+    width: 8px;
+    height: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brownish-grey);
+  }
+  #three{
+    width: 8px;
+    height: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brownish-grey);
+  }
+  
+  #right{
+    width: 7px;
+    height: 11px;
+    font-family: FontAwesome;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brownish-grey);
+  }
+ /* lookbook image styling */
+ #my1{
+  height: 290px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+ }
+
+ #my2{
+  height:550px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+ }
+ #my3{
+  height:550px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+ }
+ #my4{
+  height:550px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+ }
+
+ .col ul{
+   float: right;
+   display: block;
+   list-style-type: none;
+   font-family: 'Dosis', sans-serif;
+   text-align: left;
+
+ }
+
+ .cart button {
+   border-radius: 10px;
+   font-family: 'Dosis', sans-serif;
+   font-size: 5px;
+   padding-right: 30px;
+ } 
+
+ .pic1{
+   display: inline-flex;
+ }

@@ -17,7 +17,7 @@ body{
 
   }
   
-  div.grid      { width: 100%;  }
+  div.grid      { width: 100%; }
   div.grid div  { float: left; height: 53px; }
   .div1   { 
       width: 36.31%; 
@@ -226,6 +226,23 @@ body{
     height: 445px;
     background-color: #666666;
 }
+
+.intro h1{
+  width: 132px;
+  height: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 46.52%;
+  padding-top: 180px;
+}
+
 
 .info{
     width: 100%;
