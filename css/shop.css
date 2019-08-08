@@ -724,9 +724,8 @@ div.desc {
 @media screen and (max-width: 500px) {
   .gallery1{
  margin-left: 100px;
+ background-color: #ffffff;
     
-  }
-  .content{
   }
 } 
 
