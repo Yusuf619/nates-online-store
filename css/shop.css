@@ -13,7 +13,7 @@ body{
   margin-top: 0;
   margin-bottom: 58px;
   margin:0 auto;
-  position: fixed;
+  /* position: fixed; */
 
 }
 
@@ -78,7 +78,7 @@ div.clear     { clear: both; }
 
 .topnav {
   overflow: hidden;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin:0 auto;
   padding-top: 36px;
  
