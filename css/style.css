@@ -20,6 +20,7 @@
         overflow: hidden;
         margin-top: 0;
         margin-bottom: 58px;
+        /* position: fixed; */
       }
       
       div.grid      { width: 100%; }
@@ -97,6 +98,7 @@
 
       .topnav {
         overflow: hidden;
+        /* position: fixed; */
        
       }
       
