@@ -159,7 +159,9 @@
   <section class="blog">
     <h2>OUR BLOG</h2>
     <hr size="2px" width="50px" text-align="left" color="#a88d7b">
+
     <div class="blg"> 
+
     <div class="blg1">
    <div class="gallery">
     <img src="img/AJ1 turbo green.jpg" alt="Off-white AJ 1" width="100%" height="100%">
@@ -169,11 +171,16 @@
     <h4>August, 07, 2019</h4>
     <p>We are one of the best sneaker stores wworld wide, stocking the latest to the rarest of sneakers. We put our customers and search for shoes that are impossible to find, aswell as keeping uo the latest trends in order to keep our customers laced in the latest and freshes kicks. </p> 
 
-  <button> <a class="fa fa-arrow-up fa-2x" href="#btt">BACK TO TOP</a></button>
   </div>
+</div>
+
+<section class="mybtn2">
+<div class="arrow-up bounce">
+    <a onclick="topFunction()" id="myBtn2" class="fa fa-arrow-up fa-2x" ></a>
+</div>
+</section>
 
 
-  </div>
 
   </section>
 
@@ -215,6 +222,25 @@
   <section class="footer2">
     Copyright © 2019 Designed by Yusuf_Hendricks. All rights reserved.
   </section>
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn2").style.display = "block";
+      } else {
+        document.getElementById("myBtn2").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 
   </body>
 </html>
