@@ -816,7 +816,7 @@ filter:  grayscale(100%);
 transition: 1s ;
 }
 
-.gallery img:hover{
+.row img:hover{
 filter: grayscale(0 );
 transform: scale(1.1);
 }
