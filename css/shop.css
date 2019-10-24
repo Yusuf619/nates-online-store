@@ -110,10 +110,12 @@ padding-top: 36px;
 
 .topnav a {
 text-align: center;
-text-decoration: none;
+text-decoration: none !important;
 display: inline;
 font-family: 'Dosis', sans-serif;
 padding-left: 2.10%;
+
+
 
 }
 
@@ -137,6 +139,7 @@ text-align: left;
 color: #666666;
 margin-left: 15%;
 margin-top: 35px;
+text-decoration: none;
 }
 
 .topnav a.active1{
@@ -643,19 +646,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 
 /* 
-************************************************************************************************************ */
-
-/* CART CSS */
-
-
-
-
-
-
-
-
-
-
+************************************************************************************************************ 
 
 
 
@@ -682,6 +673,7 @@ background-color: #ffffff;
 @media screen and (max-width: 600px) {
 .column,.column2,.column3,.column4{
 width: 100%;
+margin-bottom: -100px;
 }
 } 
 
