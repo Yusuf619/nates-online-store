@@ -1,312 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/shop.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-    <script src="js/main.js"></script>
-   
-    <script src="https://kit.fontawesome.com/ac87d8aca0.js"></script>
-    <title>N A T E B || shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./css/shop.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+<script src="https://kit.fontawesome.com/ac87d8aca0.js"></script>
+<title>N A T E B || shop</title>
 </head>
-  <body>
-    <!-- TOP NAVBAR START -->
-    <!-- <section>
-      <header class="header">
-          <div class="grid">
-              <div class="div1">EN <span class="lnr lnr-chevron-down"></span> 
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-pinterest"></i>
 
-              </div>
-              <div class="div2">
-                  <h1>FREE SHIPPING FOR STANDARD ORDER OVER R100</h1>
-              </div>
+<body>
+<!-- <section>
+<header class="header">
+<div class="grid">
+<div class="div1">EN <span class="lnr lnr-chevron-down"></span> 
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest"></i>
 
-              <div class="div1">
-                  ZAR <span class="lnr lnr-chevron-down"></span>
+</div>
+<div class="div2">
+<h1>FREE SHIPPING FOR STANDARD ORDER OVER R100</h1>
+</div>
 
-              </div>
-                 <a href="javascript:void(0);" class="icon" onclick="Function1()"><i class="fa fa-bars"></i></a>
+<div class="div1">
+ZAR <span class="lnr lnr-chevron-down"></span>
 
-              <div class="clear"></div>
+</div>
+<a href="javascript:void(0);" class="icon" onclick="Function1()"><i class="fa fa-bars"></i></a>
+
+<div class="clear"></div>
+</div>
+</header>
+</section> -->
+
+
+<section class="header2">
+<div class="topnav" id="myTopnav">
+<a href="#"  class="active3">N A T E B</a>
+<a href="index.html" class="active">Home</a>
+<a href="shop.html"  class="active1" >Shop</a>
+<a href="#"  class="active2">About</a>
+<a href="#"  class="active4" >Blog</a>
+<a href="#"  class="active5" >Contact</a>
+<a href="lookbook.html"  class="active6" >Lookbook</a>
+<!-- <a href=""><i class="fas fa-shopping-cart"></i></a>  -->
+
+<a data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i> <span class="total-count"></span></a>
+<a href=""><i class="fas fa-search"></i></a> 
+<a href="javascript:void(0);" class="icon" onclick="Function2()"><i class="fa fa-bars"></i></a>
+</div>
+
+</section>
+
+<!-- NAVBAR END -->
+
+
+   
+       <!-- Modal -->
+      <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="show-cart table">
+                
+              </table>
+              <div>Total price: R<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Order now</button>
+              <button class="clear-cart btn btn-danger">Clear Cart</button>
+            </div>
           </div>
-      </header>
-    </section> -->
-    <!-- TOP NAVBAR END -->
+        </div>
 
-    <!-- MAIN NAVBAR START -->
-    <section class="header2">
-      <div class="topnav" id="myTopnav">
-        <a href="#"  class="active3">N A T E B</a>
-        <a href="index.html" class="active">Home</a>
-        <a href="shop.html"  class="active1" >Shop</a>
-        <a href="#"  class="active2">About</a>
-        <a href="#"  class="active4" >Blog</a>
-        <a href="#"  class="active5" >Contact</a>
-        <a href="lookbook.html"  class="active6" >Lookbook</a>
-          <i class="fas fa-shopping-cart"></i>
-          <i class="fas fa-search"></i>
-        <a href="javascript:void(0);" class="icon" onclick="Function2()"><i class="fa fa-bars"></i></a>
+      </div> 
+<!-- ********************************************************************************************************************************** -->
+      <section class="item-back">
+<div class="card-deck"  id="cardb">
+        <div class="card" id="card1">
+          <img src="img/95 gold.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">AIRMAX 95 </p>
+            <p>(GOLD)</p>
+            <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="AIRMAX(GOLD&RED)" data-price="2500" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr> 
+          </div>
+   
+        </div>
+        <div class="card">
+          <img src="img/95 blue and purple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 </p>
+              <p>(GREY AND PURPLE)</p>
+              <h5 class="card-title">R 2600</h5>
+            <a href="#" data-name="AIRMAX(GREY&PURPLE)" data-price="2600" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="img/95 white.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (WHITE)</p>
+              <p>(WHITE)</p>
+              <h5 class="card-title">R 2300</h5>
+            <a href="#" data-name="AIRMAX(WHITE)" data-price="2300" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="img/95.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 </p>
+              <p>(BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="AIRMAX(BLUE&YELLOW)" data-price="2500" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- NEXT ROW -->
+      <div class="card-deck"  id="cardb">
+        <div class="card">
+          <img src="img/AF1 white.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="img/AIR 1 high black.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="img/AIR 1 walk the dog.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="img/air jordan ts.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+          
+        </div>
+      </div>
+<!-- 
+      NEXT ROW -->
+      <div class="card-deck"  id="cardb">
+        <div class="card">
+          <img src="img/airforce1 pink.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="img/airmax 90 red.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="img/AM 270 blue and green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="img/AJ1 turbo green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text">AIRMAX 95 (BLUE AND YELLOW)</p>
+              <h5 class="card-title">R 2500</h5>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+            <hr>
+          </div>
+        
+        </div>
       </div>
     </section>
-<!-- MAIN NAVABR END -->
 
-<!-- CONTENT START -->
-    <section class="content">
-        <div class="gallery1">
-            <a target="_blank" href="img_mountains.jpg">
-            <img src="img/AM red .jpg" alt="Mountains" width="50%" height="50%" >
-          </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+<!-- NEXT PAGE  -->
+<div id="copyright">
+<button class="btn"><a href="shop.html">1</a></button>
+<button class="btn active" id="current" ><a href="shop2.html">2</a></button>
+<button class="btn"><a href="shop3.html">3</a></button>
+</div>
+</section>
+<!-- NEXT PAGE END -->
 
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/AM red sketch.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button class="add-cart-btn"> Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+           
+        
 
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/AM white jewel swoosh.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+<!-- FOOTER START -->
+<section class="footer">
+<div class="row">
+<div class="column">
+<h2>N A T E B</h2>
+<p>379 5th Ave Rondebosch, CT 7700</p>
+<p>(+27) 78 372 2074</p>
+<p> contact@nate_nonpareil.com</p>
+</div>
+<div class="column2">
+<h2>LINKS</h2>
+<p>PRODUCTS</p>
+<p>Featured</p>
+<p>Privacy-Policy</p>
+<p>Blog</p>
+</div>
+<div class="column3">
+<h2>SHOP</h2>
+<p>Men</p>
+<p>Women</p>
+<p>Lookbook</p>
+<p>Support</p>
+</div>
+<div class="column4">
+<h2>Column 4</h2>
+<p>Some text..</p>
+</div>
+</div>
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/AM1 red and white.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/Atmos.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/Foam pro.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/jordan 4 black.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+</section>
 
 
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/jordan 4 undefeated.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+<section class="footer2">
+Copyright © 2019 Designed by Yusuf_Hendricks. All rights reserved.
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/jordan 4 white.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
+</section>
 
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/Jordan retro 11.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/jordan retro 3 white.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/jordan11 white and blue.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-          <img src="img/NIKE REACT.jpg" alt="Mountains" >
-        </a>
-            <div class="desc">
-                <h1>AIR JORDAN</h1>
-                <p>AIR JORDAN 11 RETRO LOW</p>
-                <p>R2500</p>
-                <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-        </div>
-
-        <div class="gallery1">
-        <a target="_blank" href="img_mountains.jpg">
-          <img src="img/nike zoom.jpg" alt="Mountains" >
-        </a>
-        <div class="desc">
-            <h1>AIR JORDAN</h1>
-            <p>AIR JORDAN 11 RETRO LOW</p>
-            <p>R2500</p>
-            <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-        </div>
-        </div>
-
-        <div class="gallery1">
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img/OFF white AJ1.jpg" alt="Mountains">
-          </a>
-          <div class="desc">
-              <h1>AIR JORDAN</h1>
-              <p>AIR JORDAN 11 RETRO LOW</p>
-              <p>R2500</p>
-              <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-          </div>
-        </div>
-
-        <div class="gallery1">
-              <img src="img/Pippen 1 black.jpg" alt="Mountains" >
-            <div class="desc">
-                <h1>AIR JORDAN</h1>
-                <p>AIR JORDAN 11 RETRO LOW</p>
-                <p>R2500</p>
-                <button > Add to cart <i class="fa fa-shopping-cart" ></i></button>
-            </div>
-          </div>
-
-        <div id="copyright">
-          <button class="btn"><a href="shop.html">1</a></button>
-          <button class="btn active" ><a href="shop2.html">2</a></button>
-          <button class="btn"><a href="shop3.html">3</a></button>
-        </div>
-    </section>
-    <!-- CONTENT END  -->
-
-
-    <!-- FOOTER START -->
-    <section class="footer">
-        <div class="row">
-          <div class="column">
-            <h2>N A T E B</h2>
-            <p>379 5th Ave Rondebosch, CT 7700</p>
-            <p>(+27) 78 372 2074</p>
-            <p> contact@nate_nonpareil.com</p>
-          </div>
-
-          <div class="column2">
-            <h2>LINKS</h2>
-            <p>PRODUCTS</p>
-            <p>Featured</p>
-            <p>Privacy-Policy</p>
-            <p>Blog</p>
-          </div>
-
-          <div class="column3">
-            <h2>SHOP</h2>
-            <p>Men</p>
-            <p>Women</p>
-            <p>Lookbook</p>
-            <p>Support</p>
-          </div>
-
-          <div class="column4">
-            <h2>Column 4</h2>
-            <p>Some text..</p>
-          </div>
-        </div>
-
-    </section>
-
-
-
-    <section class="footer2">
-        Copyright © 2019 Designed by Yusuf_Hendricks. All rights reserved.
-    </section>
 <!-- FOOTER END -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="js/cart.js"></script>
+
 
 </body>
 </html>

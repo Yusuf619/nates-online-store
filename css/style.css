@@ -1,7 +1,10 @@
 
 html{
 scroll-behavior: smooth;
+overflow-x: hidden;
+overflow-y: scroll;
 }
+
 
 body{
 background-color: white;
@@ -10,6 +13,8 @@ margin: 0;
 padding: 0;
 margin: 0 auto;
 }
+
+
 
 
 .headers{
@@ -27,6 +32,10 @@ overflow: hidden;
 margin-top: 0;
 margin-bottom: 58px;
 
+}
+
+.icon{
+  display: none;
 }
 
 
@@ -49,7 +58,7 @@ text-align: center;
 color: #999999;
 
 padding-top: 23px;
-padding-bottom: 21px;
+/* padding-bottom: 21px; */
 
 }
 
@@ -94,7 +103,7 @@ letter-spacing: 1px;
 text-align: center;
 color: #999999;
 padding-top: 23px;
-padding-bottom: 21px;
+/* padding-bottom: 21px; */
 
 }
 
@@ -113,6 +122,9 @@ text-decoration: none;
 display: inline;
 font-family: 'Dosis', sans-serif;
 
+}
+.topnav i {
+  color: white;
 }
 
 .topnav a.active {
@@ -263,7 +275,7 @@ transition: 0.8s;
 padding-top: -15px;
 }
 .topnav .active3{
-float: left;
+float: left;a
 padding-bottom:15px; 
 display: inline-flex;
 padding-left: 20px;

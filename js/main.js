@@ -1,4 +1,4 @@
-function Function2() {
+function responsivenav2() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -7,7 +7,7 @@ function Function2() {
     }
   }
 
-  function Function1() {
+  function responsivenav1() {
     var x = document.getElementById("grid");
     if (x.className === "grid") {
       x.className += " responsive";
@@ -17,37 +17,37 @@ function Function2() {
   }
 
 
-// Get the elements with class="column"
+
 var elements = document.getElementsByClassName("column");
 
-// Declare a loop variable
+
 var i;
 
-// Full-width images
-function one() {
+// FULL WIDTH IMAGE
+function oneimage() {
     for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "100%";  // IE10
     elements[i].style.flex = "100%";
   }
 }
 
-// Two images side by side
-function two() {
+// TWO IMAGES
+function twoimages() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "50%";  // IE10
     elements[i].style.flex = "50%";
   }
 }
 
-// Four images side by side
-function four() {
+// FOUR IMAGES
+function fourimages() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";  // IE10
     elements[i].style.flex = "25%";
   }
 }
 
-// Add active class to the current button (highlight it)
+
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -77,35 +77,5 @@ function myFunction() {
 
 
 
-
-
-
-
-// CART JS
-
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
 
