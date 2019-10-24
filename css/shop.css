@@ -1,5 +1,4 @@
 body{
- 
 margin: 0;
 padding: 0;
 overflow-y: scroll;
@@ -270,8 +269,23 @@ background-color: #ffffff;
 
 .hero{
     height: 500px;
-    background-color: thistle;
+    background-color: lightgray;
+    background-image: url(/img/BG3.jpg) ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
    
+   
+    
+}
+
+.hero h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 200px;
+    font-family: 'Source Sans Pro', sans-serif ;
 }
 .card{
     border: none !important;
@@ -996,7 +1010,7 @@ display: none;
         }
         
       .btn-primary{
-          background-color: lightblue !important;
+          background-color: darkgray !important;
           border: none !important;
       }
         
@@ -1175,7 +1189,7 @@ display: none;
         }
      
         #current{
-            background-color: lightblue;
+            background-color: darkgray;
             text-decoration: none;
         }
 
