@@ -470,6 +470,9 @@ color: black;
 
 
 /* Create four equal columns that floats next to each other */
+.container{
+    padding-top: 60px !important;
+}
 .column {
 float: left;
 width: 35%;
@@ -828,7 +831,7 @@ display: none;
         
         .modal-header {
           padding: 2px 16px;
-          background-color: #5cb85c;
+          background-color: gray;
           color: white;
         }
         
@@ -836,7 +839,7 @@ display: none;
         
         .modal-footer {
           padding: 2px 16px;
-          background-color: #5cb85c;
+          background-color: gray;
           color: white;
         }
         /* 
