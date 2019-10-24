@@ -1,4 +1,4 @@
-# nates-online-storeSibabalo 4:30 PM
+# nates-online-store Yusuf Hendricks
 # fashion-store
 creating an online fashion store
 Visual Studio Code
